@@ -1,0 +1,37 @@
+name: torch
+channels:
+  - conda-forge
+dependencies:
+  - bzip2=1.0.8=h3422bc3_4
+  - ca-certificates=2022.12.7=h4653dfc_0
+  - cffi=1.15.1=py311hae827db_2
+  - libblas=3.9.0=16_osxarm64_openblas
+  - libcblas=3.9.0=16_osxarm64_openblas
+  - libcxx=14.0.6=h2692d47_0
+  - libffi=3.4.2=h3422bc3_5
+  - libgfortran=5.0.0=11_3_0_hd922786_26
+  - libgfortran5=11.3.0=hdaf2cc0_26
+  - liblapack=3.9.0=16_osxarm64_openblas
+  - libopenblas=0.3.21=openmp_hc731615_3
+  - libprotobuf=3.21.11=hb5ab8b9_0
+  - libsqlite=3.40.0=h76d750c_0
+  - libzlib=1.2.13=h03a7124_4
+  - llvm-openmp=15.0.6=h7cfbb63_0
+  - ncurses=6.3=h07bb92c_1
+  - ninja=1.11.0=hf86a087_0
+  - numpy=1.23.5=py311ha92fb03_0
+  - openssl=3.0.7=h03a7124_1
+  - pip=22.3.1=pyhd8ed1ab_0
+  - pycparser=2.21=pyhd8ed1ab_0
+  - python=3.11.0=h93c2e33_0_cpython
+  - python_abi=3.11=3_cp311
+  - pytorch=1.13.0=cpu_py311h98403b3_0
+  - readline=8.1.2=h46ed386_0
+  - setuptools=65.5.1=pyhd8ed1ab_0
+  - sleef=3.5.1=h156473d_2
+  - tk=8.6.12=he1e0b03_0
+  - typing_extensions=4.4.0=pyha770c72_0
+  - tzdata=2022g=h191b570_0
+  - wheel=0.38.4=pyhd8ed1ab_0
+  - xz=5.2.6=h57fd34a_0
+prefix: /Users/jun/miniforge3/envs/torch
