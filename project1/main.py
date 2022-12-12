@@ -1,12 +1,9 @@
 import pathlib
 import torch
-import torch.nn as nn
-import torch.optim as optim
-import torch.nn.functional as F
 import numpy as np
 
 from models.net import Net
-from utils.fix_seed import fix_seed
+# from utils.fix_seed import fix_seed
 
 
 if __name__ == '__main__':
@@ -75,14 +72,6 @@ if __name__ == '__main__':
     print("%d %d = %f" % (x_data[0], x_data[1], y_out))
 
 
-
-
-
-  # myModel = MyModel()
-  # model = myModel.to(device)
-
-  # # 学習済みモデルの保存・ロード
-  # path_saved_model = pathlib.Path("./project_1/dist/saved_model").resolve()
-  # print(path_saved_model)
-  # # モデルの保存
-  # torch.save(model.state_dict(), path_saved_model)
+  # 学習済みモデルの保存
+  path_saved_model = pathlib.Path("./project1/dist/model.pth").resolve()
+  torch.save(net.state_dict(), path_saved_model)
