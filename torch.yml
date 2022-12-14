@@ -5,6 +5,7 @@ dependencies:
   - bzip2=1.0.8=h3422bc3_4
   - ca-certificates=2022.12.7=h4653dfc_0
   - cffi=1.15.1=py311hae827db_2
+  - joblib=1.2.0=pyhd8ed1ab_0
   - libblas=3.9.0=16_osxarm64_openblas
   - libcblas=3.9.0=16_osxarm64_openblas
   - libcxx=14.0.6=h2692d47_0
@@ -27,8 +28,11 @@ dependencies:
   - python_abi=3.11=3_cp311
   - pytorch=1.13.0=cpu_py311h98403b3_0
   - readline=8.1.2=h46ed386_0
+  - scikit-learn=1.2.0=py311hba7d9bc_0
+  - scipy=1.9.3=py311h0bcca16_2
   - setuptools=65.5.1=pyhd8ed1ab_0
   - sleef=3.5.1=h156473d_2
+  - threadpoolctl=3.1.0=pyh8a188c0_0
   - tk=8.6.12=he1e0b03_0
   - typing_extensions=4.4.0=pyha770c72_0
   - tzdata=2022g=h191b570_0
